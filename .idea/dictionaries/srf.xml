@@ -2,6 +2,8 @@
   <dictionary name="srf">
     <words>
       <w>codeigniter</w>
+      <w>docroot</w>
+      <w>rootpath</w>
     </words>
   </dictionary>
 </component>

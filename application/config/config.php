@@ -25,8 +25,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // TODO : Use Web server variables - use flexible way for apache & iis
 //$config['base_url'] = '';
+
+// Absolute Path
 $config['base_url'] = 'http://localhost/codeigniter_demo/';
+
+// IIS
 //$config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'].'/codeigniter_demo/';
+
+//Apache
+//$config['base_url'] = 'http://'.$_SERVER['HTTP_HOST'].'/codeigniter_demo/';
+
+//$root = "http://".$_SERVER['HTTP_HOST'];
+//$root .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER['SCRIPT_NAME']);
+//define('base_url',$root);
+
+//define('ROOTPATH', realpath(dirname(__FILE__)) . '/');
+//// installed in the docroot?
+//if (realpath(dirname(__FILE__)) == $_SERVER['DOCUMENT_ROOT']) {
+//	define('ROOT', '/');
+//} else {
+//	define('ROOT', substr(ROOTPATH, strlen($_SERVER['DOCUMENT_ROOT']) + 1));
+//}
+//$url = (isset($_SERVER['HTTPS']) ? "https://" : "http://") . $_SERVER['HTTP_HOST'] . ROOT;
+//define('base_url', $url);
 
 /*
 |--------------------------------------------------------------------------
