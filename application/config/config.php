@@ -23,7 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+// TODO : Use Web server variables - use flexible way for apache & iis
+//$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/codeigniter_demo/';
+//$config['base_url'] = 'http://'.$_SERVER['SERVER_NAME'].'/codeigniter_demo/';
 
 /*
 |--------------------------------------------------------------------------
